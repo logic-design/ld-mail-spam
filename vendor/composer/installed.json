@@ -1,0 +1,43 @@
+[
+    {
+        "name": "morrelinko/spam-detector",
+        "version": "0.2.0",
+        "version_normalized": "0.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/morrelinko/spam-detector.git",
+            "reference": "bcff945982b4dbf4cba4477ebce4533cbe2b84b8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/morrelinko/spam-detector/zipball/bcff945982b4dbf4cba4477ebce4533cbe2b84b8",
+            "reference": "bcff945982b4dbf4cba4477ebce4533cbe2b84b8",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2016-08-17T09:08:09+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "SpamDetector\\": [
+                    "src/",
+                    "tests/"
+                ]
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Morrison Laju",
+                "email": "morrelinko@gmail.com"
+            }
+        ],
+        "description": "An extensible simple spam detector library"
+    }
+]

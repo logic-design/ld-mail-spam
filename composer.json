@@ -1,0 +1,5 @@
+{
+	"require" : {
+		"morrelinko/spam-detector": "0.2.0"
+	}
+}
