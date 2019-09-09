@@ -3,7 +3,7 @@
  * Plugin Name: LD Mail Spam
  * Plugin URI: https://www.logicdesign.co.uk
  * Description: Prevent spam emails sending through wp_mail()
- * Version: 1.0.1
+ * Version: 1.0.2
  * Author: Logic Design & Consultancy Ltd
  * Author URI: https://www.logicdesign.co.uk
  */
