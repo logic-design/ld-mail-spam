@@ -69,6 +69,9 @@ function ld_mail_spam($spam)
 		'text' => $params['content'],
 	]);
 
-	// RETURN RESULT
-	return ! $spamDetectorResult->passed();
+	if ( $spamDetectorResult->passed() === TRUE ) {
+		return FALSE;
+	}
+
+	return TRUE;
 }
