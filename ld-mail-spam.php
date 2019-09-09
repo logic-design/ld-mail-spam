@@ -58,7 +58,9 @@ function ld_mail_spam($spam)
 
 	// ADD RULES
 	$blackListDetector->add('__MUST_HAVE_ONE_RULE__');
-	$blackListDetector->setListFile( __DIR__ . '/spam.txt' );
+
+	$fileList = array_filter(array_map('trim', explode("\n", file_get_contents(__DIR__ . '/spam.txt'))));
+	$blackListDetector->add($fileList);
 
 	// REGISTER DETECTOR
 	$spamDetector = new SpamDetector\SpamDetector();
